@@ -82,8 +82,6 @@ def train_only_comb_seq():
     trainQuadrant = args.trainQuadrant
     alterQuadrant = True
     
-    per = args.per
-    
     
     #curDir = "/home/deckyal/eclipse-workspace/FaceTracking/"
     c_dim=2

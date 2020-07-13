@@ -92,7 +92,7 @@ def toQuadrant(inputData = None, min = -10, max = 10,  toOneHot = False):
 
 
 
-def train_w_g_adl(): #training g and d on standard l2 loss
+def train_w_gdc_adl(): #training g and d on standard l2 loss
     
     split = args.split
     isSewa = args.sewa 
@@ -1185,7 +1185,7 @@ def extract(): #training g and d on standard l2 loss
 if __name__ == '__main__':
     mode = args.mode
     if mode == 0 : #To train GDC
-        train_w_g_adl()
+        train_w_gdc_adl()
     elif mode == 1 : #To extract the features
         extract()
     
