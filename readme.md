@@ -1,3 +1,7 @@
+This code is mainly based on our previous work of adversarial based neural network for affect estimations in the wild : https://github.com/deckyal/ALN
+
+##################################################################################################################################################
+
 The codes of our An Enhanced Adversarial Network with Combined Latent Features for Spatio-Temporal Facial Affect Estimation in the Wild.
 
 main_gan_single_red.py : To train G, D and C networks to extract the Z and Q latent features
